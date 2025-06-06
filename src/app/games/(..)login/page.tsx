@@ -4,11 +4,11 @@ import { useRouter } from "next/navigation";
 
 function LoginPage() {
   const router = useRouter();
-  const [isOpen, setIsOpen] = useState(true);
+  
 
   return (
     <>
-      {isOpen && (
+      {(
         <div
           className="fixed inset-0 flex items-center
          justify-center bg-black/95"
